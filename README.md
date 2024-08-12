@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
+[View Live Template](https://bethheal.github.io/portfolio-me/)
 
 ## Getting Started
 
