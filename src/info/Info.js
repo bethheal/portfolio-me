@@ -27,42 +27,42 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Elizabeth",
+    lastName: "Dowuona",
+    initials: "ED", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Front End Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'fueled by happiness'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Accra, Ghana'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Ready to for Opportunities"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "elizabethbarden18@gmail.com"
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
             link: "https://github.com",
             icon: "fa fa-github",
@@ -82,63 +82,140 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Elizabeth Dowuona. I’m an IT professional with experience in Front End Development, IT support, networking, and Python programming. I hold a degree in Computer Science from Accra Technical University and have worked with leading organizations like Hyperlink Network Systems and the Greater Accra Regional Coordinating Council. I’m passionate about web development and cloud platforms (AWS) and actively engage with Women in Cybersecurity and Developers in Vogue. When I'm not coding, I enjoy exploring new tech trends and improving my skills. I'm enthusiastic about tackling challenges and driving innovation. Let’s connect!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'HTML', 'CSS', 'Python', 'Flutter'],
+            exposedTo: ['nodejs', 'AWS Cloud Platforms', 'canva' , 'Community engagement with Women in Cybersecurity and Developers in Vogue','Advanced web development practices']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Reading',
+            emoji: '📚'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Dancing',
+            emoji: '💃'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Gaming',
+            emoji: '🎮'
         }
+    
+    
+        // {
+        //     label: 'cooking',
+        //     emoji: '🌶'
+        // }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
+    ],
+    education: [ // Eduction additions 
+        {
+            institution: "Accra Technical University",
+            degree: "Bachelor of Technology in Computer Science (",
+            startDate: "2020",
+            endDate: "2022",
+            description: "Focused on software development, networking, and cybersecurity. Developed a strong foundation in programming, system analysis, and cloud computing."
+        },
+        {
+            institution: "Accra Technical University",
+            degree: "Higher National Diploma  in Computer Science",
+            startDate: "2018",
+            endDate: "2020",
+            description: "Focused on software development, networking, and cybersecurity. Developed a strong foundation in programming, system analysis, and cloud computing."
+        },
+        // Add more education entries if needed
+    ],
+
+    experience: [ // Experionce additions 
+
+        {
+            institution: "MEST",
+            role: "Training Program",
+            location: "Accra, Ghana ",
+            startDate: "06/2024",
+            endDate: "08/2024",
+            description: " use React to create engaging user experiences. My expertise lies in building responsive and dynamic interfaces that enhance user interaction"
+        },
+        {
+            institution: "Tech4Dev",
+            role: "Training Program",
+            location: "Virtual ",
+            startDate: "12/2023",
+            endDate: "12/2023",
+        },
+        {
+            institution: "Amalitech ",
+            role: " Training Program",
+            location: "Virtual ",
+            startDate: "05/2023",
+            endDate: "08/2023",
+            description: "Gained skills in HTML, CSS, and client-side scripting for web development."
+        },
+        {
+            institution: "Greater Accra Regional Coordinating Council",
+            role: "  MIS Personnel",
+            location: "Accra, Ghana ",
+            startDate: "09/2020",
+            endDate: "09/2021",
+            description: "Managed website content and assisted with software and hardware issues."
+
+        },
+       
+        {
+            institution: "CyberSafe Foundation",
+            role: "  CyberGirls Training Program",
+            location: "Virtual",
+            startDate: "03/2022",
+            endDate: "10/2022",
+            description: "Learned cloud security best practices and AWS storage management."
+        },
+        {
+            institution: "Hyperlink Network Systems",
+            role: " IT Support Specialist",
+            location: "Accra, Ghana ",
+            startDate: "09/2021",
+            endDate: "08/2023",
+            description: "Provided technical support to businesses, resolving issues with connectivity, hardware, software, and data security."
+        },
+      
+     
+        // Add more education entries if needed
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://ladies-in-tech.netlify.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/bethheal/furnish", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/TEAM-LEJED/lejed-events-frontend",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/bethheal/interior-frontend",
             image: mock3
         },
         {
             title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/bethheal/ghana-hazard-reporter",
             image: mock4
         },
         {
             title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            // live: "https://paytonpierce.dev",
+            source: "https://github.com/bethheal/lizeatry",
             image: mock5
         }
-    ]
+    ],
+   
+
 }
