@@ -44,7 +44,7 @@
    npm start
    ```
 
-   Open your browser and visit `http://localhost:3000` to view the project.
+   Open your browser and visit `(https://portfolio-elizabeth.netlify.app/)` to view the project.
 
 
 
